@@ -62,6 +62,10 @@ class LivroController {
     } catch (erro) {
       res.status(500).json({ message: `${erro.message} - falha na busca` });
     }
+  };
+
+  static async listarLivrosPorEditora (req, res) {
+    
   }
 };
 
