@@ -6,6 +6,6 @@ async function conectaNaDatabase() {
     return mongoose.connection;
 };
 
-export default conectaNaDatabase;
+export default conectaNaDatabase; 
 
 
